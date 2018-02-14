@@ -60,7 +60,7 @@ for(var i = 0; i < squares.length; i++){
 	squares[i].addEventListener("click", function() {
 		var clickedColor = this.style.backgroundColor;
 		if(clickedColor === pickedColor) {
-			messageDisplay.textContent = "Correct!";
+			messageDisplay.textContent = "Right-o!";
 			resetButton.textContent = "Play Again";
 			changeColors(clickedColor);
 			h1.style.backgroundColor = clickedColor;
